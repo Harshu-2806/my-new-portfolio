@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Extra styling if needed */
+body {
+  transition: all 0.3s ease;
+}
