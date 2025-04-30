@@ -1,8 +1,13 @@
-// pages/_app.js
-
-// filepath: f:\my-portfolio\src\pages\_app.js
+import Head from "next/head" ;
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head>
+        <title>My Portfolio</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 export default MyApp;

@@ -10,9 +10,13 @@ export default function About() {
           web technologies.
         </p>
   
-        <div className="mt-8">
+        <div className="mt-8"   style={{ backgroundColor: "lightblue" }}>
           {/* Example of adding a visual asset (handmade sketch, icon, etc.) */}
-          <img src="/assets/my-sketch.svg" alt="My Hand-drawn Sketch" className="w-32 h-32" />
+          <img
+  src="/assets/doodle.png"
+  alt="My Hand-drawn Sketch"
+  style={{ width: "300px", border: "2px solid red" }}
+/>
         </div>
       </div>
     )

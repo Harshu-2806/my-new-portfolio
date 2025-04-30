@@ -9,9 +9,9 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
-
   "scripts": {
-  "build": "next build",
-  "start": "next start",
-  "dev": "next dev"
-} }
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
+  }
+}
